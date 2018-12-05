@@ -12,4 +12,52 @@ user1 = User.create(name: 'Jason Campbell', username: 'jasoncampbell', email: 'j
 
 user2 = User.create(name: 'Mike Kim', username: 'mikekim', email: 'mike@gmail.com')
 
-review1 = Review.create(user_id: 1, movie_id: 'tt0468569', content: Faker::Lorem.unique.paragraphs)
+review1 = Review.create(user_id: 1, movie_id: 'tt0092099', content: Faker::Lorem.unique.paragraphs)
+
+review2 = Review.create(user_id: 1, movie_id: 'tt0091042', content: Faker::Lorem.unique.paragraphs)
+
+review3 = Review.create(user_id: 1, movie_id: 'tt0090728', content: Faker::Lorem.unique.paragraphs)
+
+review4 = Review.create(user_id: 1, movie_id: 'tt0091369', content: Faker::Lorem.unique.paragraphs)
+
+review5 = Review.create(user_id: 1, movie_id: 'tt0091419', content: Faker::Lorem.unique.paragraphs)
+
+review6 = Review.create(user_id: 1, movie_id: 'tt0091949', content: Faker::Lorem.unique.paragraphs)
+
+review7 = Review.create(user_id: 1, movie_id: 'tt0091129', content: Faker::Lorem.unique.paragraphs)
+
+review8 = Review.create(user_id: 1, movie_id: 'tt0091217', content: Faker::Lorem.unique.paragraphs)
+
+review9 = Review.create(user_id: 1, movie_id: 'tt0091278', content: Faker::Lorem.unique.paragraphs)
+
+review10 = Review.create(user_id: 1, movie_id: 'tt0088763', content: Faker::Lorem.unique.paragraphs)
+
+review11 = Review.create(user_id: 1, movie_id: 'tt0089218', content: Faker::Lorem.unique.paragraphs)
+
+review12 = Review.create(user_id: 1, movie_id: 'tt0090305', content: Faker::Lorem.unique.paragraphs)
+
+review13 = Review.create(user_id: 1, movie_id: 'tt0088930', content: Faker::Lorem.unique.paragraphs)
+
+review14 = Review.create(user_id: 2, movie_id: 'tt0090142', content: Faker::Lorem.unique.paragraphs)
+
+review15 = Review.create(user_id: 2, movie_id: 'tt0089886', content: Faker::Lorem.unique.paragraphs)
+
+review16 = Review.create(user_id: 2, movie_id: 'tt0089461', content: Faker::Lorem.unique.paragraphs)
+
+review17 = Review.create(user_id: 2, movie_id: 'tt0093058', content: Faker::Lorem.unique.paragraphs)
+
+review18 = Review.create(user_id: 2, movie_id: 'tt0093773', content: Faker::Lorem.unique.paragraphs)
+
+review19 = Review.create(user_id: 2, movie_id: 'tt0094012', content: Faker::Lorem.unique.paragraphs)
+
+review21 = Review.create(user_id: 2, movie_id: 'tt0092890', content: Faker::Lorem.unique.paragraphs)
+
+review22 = Review.create(user_id: 2, movie_id: 'tt0093870', content: Faker::Lorem.unique.paragraphs)
+
+review23 = Review.create(user_id: 2, movie_id: 'tt0093437', content: Faker::Lorem.unique.paragraphs)
+
+review24 = Review.create(user_id: 2, movie_id: 'tt0093409', content: Faker::Lorem.unique.paragraphs)
+
+review25 = Review.create(user_id: 2, movie_id: 'tt0093493', content: Faker::Lorem.unique.paragraphs)
+
+review26 = Review.create(user_id: 2, movie_id: 'tt0092494', content: Faker::Lorem.unique.paragraphs)

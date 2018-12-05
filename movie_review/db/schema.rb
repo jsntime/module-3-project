@@ -12,8 +12,11 @@
 
 ActiveRecord::Schema.define(version: 2018_12_04_144832) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "reviews", force: :cascade do |t|
-    t.integer "user_id"
+    t.bigint "user_id"
     t.string "movie_id"
     t.string "content"
     t.datetime "created_at", null: false
