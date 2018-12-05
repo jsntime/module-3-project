@@ -6,6 +6,10 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+require 'faker'
+
 user1 = User.create(name: 'Jason Campbell', username: 'jasoncampbell', email: 'jason@gmail.com')
 
 user2 = User.create(name: 'Mike Kim', username: 'mikekim', email: 'mike@gmail.com')
+
+review1 = Review.create(user_id: 1, movie_id: 'tt0468569', content: Faker::Lorem.unique.paragraphs)
